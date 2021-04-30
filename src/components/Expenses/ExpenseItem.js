@@ -7,7 +7,7 @@ import "./ExpenseItem.css";
 
 const ExpenseItem = (props) => {
   // useState - react hook, must be called inside of component function not nested or outside.
-  const [title, setTitle] = useState(props.title); // returns updated value and function to change
+  const [title, setTitle] = useState(props.title); // returns updated value and function to
   // title is pointer to props.title, setTitle function that changes the value.
   // using useState forces component to be reevaluated! Works per component instance!
 
